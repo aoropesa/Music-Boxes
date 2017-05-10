@@ -1,0 +1,25 @@
+.audio-files{
+  display: none;
+}
+
+
+.keys-container{
+  display: flex;
+  justify-content: center;
+}
+
+.key{
+  margin: 2px;
+  border: 1px solid #aaa;
+  height: 200px;
+  width: 40px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+.key#c:hover{background-color: red}
+.key#d:hover{background-color: orange}
+.key#e:hover{background-color: yellow}
+.key#f:hover{background-color: black}
+.key#g:hover{background-color: blue}
+.key#a:hover{background-color: purple}
+.key#b:hover{background-color: green}
